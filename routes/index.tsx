@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { Card } from "../components/Card.tsx";
-import { Navigation } from "../components/Navigation.tsx";
+import Navigation  from "../islands/Navigation.tsx";
 import { IProduct } from '../utils/types.ts'
 import { Handlers, PageProps } from '$fresh/server.ts'
 

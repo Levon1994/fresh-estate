@@ -1,4 +1,4 @@
-import { Navigation } from '../../components/Navigation.tsx'
+import Navigation from '../../islands/Navigation.tsx'
 import { Fragment } from 'preact'
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { IProduct } from '../../utils/types.ts'
